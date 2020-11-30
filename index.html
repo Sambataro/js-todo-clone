@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>todo list</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js" integrity="sha512-zT3zHcFYbQwjHdKjCu6OMmETx8fJA9S7E6W7kBeFxultf75OPTYUJigEKX58qgyQMi1m1EgenfjMXlRZG8BXaw==" crossorigin="anonymous"></script>
+    <script src="js/script.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+    <input class="enter" type="text"  name="add-items" value="" placeholder="inserisci qui la memo">
+    <ul class="todo">
+
+    </ul>
+    <script id="entry-template" type="text/x-handlebars-template">
+      <li>{{item}} <span class="delete">X</span> </li>
+    </script>
+
+  </body>
+</html>
